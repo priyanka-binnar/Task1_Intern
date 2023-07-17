@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="./index.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+     
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyanka's Portfolio</div>
+            <div class="right">
+            <ul>
+                <li><a href="#firstsection">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    
+<main>
+    <section id="firstsection">
+        <div class="leftsection">
+         <img src="./photo_2023-02-03_19-26-21.jpg" alt="">
+          <div class="content"> Hi , my name is 
+           <span class="purple">Priyanka</span>  
+           and I am a passionate 
+           
+            
+            <span id="element"></span>
+            <div class="buttons">
+              <button class="btn"  onclick="get()">Visit LinkedIn</button>
+              <button class="btn" onclick=h()> Visit Github</button>
+             </div>
+          </div>
+
+        
+        </div>
+
+        <div class="rightsection"><img src="./scheduling.webp" alt=""></div>
+    </section>
+    <hr>
+
+<section id="project">
+    <span class="gray">What I have done so far</span>
+    <h1>Projects</h1>
+
+    <div class="container">
+        <div class="project_container">
+          <div class="grid_item">
+            <div class="card">
+              <img height="300px" width="300px"  src="./R (2).png" alt="Project 1" />
+              <div class="card_content">
+                <h3>DICE GAME</h3>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./keypad.png" alt="Project 1" />
+              <div class="card_content">
+                <h3>CALCULATOR</h3>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./Untitled-2.png" alt="Project 1" />
+              <div class="card_content">
+                <h3>E-COMMERCE WEBSITE</h3>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./Temperature-PNG-Clipart.png" alt="Project 4" />
+              <div class="card_content">
+                <h3>TEMPERATURE CONVERTER</h3>
+              </div>
+            </div>
+          </div>
+
+        
+          
+
+          
+            </div>
+          </div>
+         
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<hr>
+
+<section id="contact">
+  <div class="container">
+    <h2>Let's work together...</h2>
+    <div class="top_contact">
+      <div class="contact_way">
+        <i class="fab fa-linkedin"></i>
+        <h3>www.linkedin.com/in/
+        </h3>
+      </div>
+      
+      <div class="contact_way">
+        <i class="fa-regular fa-envelope"></i>
+        <h3>priyankabinnar9@gmail.com</h3>
+      </div>
+    </div>
+    <div class="bottom_contact">
+      <div class="contact_way">
+        <i class="fab fa-github"></i>
+        <h3  onclick=display()>https://github.com/priyanka-binnar</h3>
+      </div>
+
+
+      <div class="contact_way">
+        <i class="fa fa-mobile"></i>
+        <h3>8605484574</h3>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer">
+  <div class="first">
+    
+  </div>
+  <div class="second">
+    <ul>
+      
+    
+    </ul>
+
+  </div>
+  <div class="third">
+
+  </div>
+  <div class="fourth">
+
+  </div>
+</div>
+</footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+   
+
+   <script src="./index.js"></script>
+</body>
+</html>
